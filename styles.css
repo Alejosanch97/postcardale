@@ -1,0 +1,65 @@
+body {
+	background: black;
+}
+
+.bebas-neue-regular {
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+.postcard-body {
+	display: flex;
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	margin: 0%;
+	padding: 10px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border-bottom: black;
+	padding: 10px;
+	border: 0;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: grey;
+	padding: 10px;
+}
+
+.postcard-footer button i {
+	font-size: 20px; /* Ajustar el tamaño del icono */
+	color: #333; /* Ajustar el color del icono */
+}
